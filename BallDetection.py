@@ -4,6 +4,7 @@ import cv2
 img = cv2.imread(r"C:\Users\ankita\Downloads\R.png")
 print(img)
 cv2.imshow("tmp",img)
+print("showing image")
 cap = cv2.VideoCapture(0)
 
 while True:
